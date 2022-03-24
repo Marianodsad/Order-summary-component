@@ -1,7 +1,8 @@
 #html{
     display:block;
-    background:url(img/pattern-background-desktop.svg);
-    background-size:100%;
+    background: url("img/pattern-background-desktop.svg") no-repeat top center;
+    background-size:contain;
+    background-color:#e0e8ff;
     
 }
 #body{
@@ -12,7 +13,7 @@
     justify-content:center;
     text-align:center;
     align-items:center;
-    margin-top:200px;
+    margin-top:120px;
     
 }
 #main{
